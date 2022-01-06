@@ -11,7 +11,7 @@
     display: flex;
 }
 
-h2 {
+h2 , h3{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -44,14 +44,22 @@ section{
     margin-bottom: 100px;
 }
 
-/* Header area CSS */
+/* Header section */
 
-.header-area-left{
-    margin-top: 100px;
-    margin-left: 100px;
+.header-section{
+    
 }
 
-.header-area h1{
+.header-section-left{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.header-section-right{
+
+}
+
+.header-section-left h1{
     font-family: 'Yeseva One', cursive;
     font-size: 50px;
     font-style: normal;
@@ -66,20 +74,44 @@ section{
 
 .heightlight-color{
     color: #FFAD5A;
-    ;
 }
 
-.header-area p{
+.header-section p{
     margin: 25px 10px 25px 0px;
 }
 
-.header-area img{
+.header-section-right img{
     width: 50%;
     margin-left: 250px;
 }
 
+/* Mission section */
 
-.mission-area img{
+.mission-section{
+
+}
+
+
+.mission-section h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #13103A;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mission-section-box{
+    width: 360px;
+    height: 376px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+    margin: 0px 20px;
+    margin: auto;
+    padding: 30px;
+}
+
+.mission-section-box img{
     height: 141px;
     width: 141px;
     left: 188px;
@@ -87,41 +119,104 @@ section{
     border-radius: 0px; 
 }
 
-.mission-area h2{
-    width: 454px;
-    height: 70px;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 70px;
-    text-align: center;
-    color: #13103A;
-    margin-bottom: 50px;
+.mission-section-box h3{
+
 }
 
-.mission-area-box-1{
-    width: 360px;
-    height: 376px;
-    left: 156px;
-    top: 723px;
-    background: rgba(79, 157, 166, 0.1);
+.ms-box1 {
+    
+}
+
+.ms-box2 {
+    
+}
+
+.ms-box3 {
+    
+}
+
+
+/* Explore section */
+
+.explore-section{
+
+}
+
+.explore-section-left{
+    margin-left: 150px;
+}
+
+.explore-section-right{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.explore-section-left img{
+    height: 400px;
+    width: 400px;
     border-radius: 26px;
-    margin: 0px 10px;
-    margin: auto;
-    padding: 30px;
 }
 
+.explore-section-right h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+}
 
+.explore-section-right p{
+    margin: 25px 0px;
+}
 
+/* Community section */
+
+.community-section {
+
+}
+
+.community-section-left{
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.community-section-right{
+    
+}
+
+.community-section-left h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+}
+
+.community-section-left p{
+    margin: 25px 0px;
+}
+
+.community-section-right img{
+    height: 400px;
+    width: 400px;
+    border-radius: 26px;
+    margin-right: 150px;
+}
 
 /* Footer area CSS */
 
-.footer-area{
+.footer-section{
     background-color: #0B0D17;
     padding: 30px 0px;
     margin-bottom: 0px;
 }
 
-.footer-area h3{
+.footer-section h3{
     font-family: Lobster;
     font-size: 36px;
     line-height: 44px;
@@ -131,7 +226,7 @@ section{
     margin-bottom: 10px;
 }
 
-.footer-area p{
+.footer-section p{
     font-family: Manrope;
     font-size: 14px;
     line-height: 24px;
