@@ -60,14 +60,21 @@ section{
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
-    line-height: 80px;
+    line-height: 65px;
     letter-spacing: 0px;
     text-align: left;
     text-shadow: 0px 2px 2px #00000040;
+    border-left: 5px solid #FF5959;
+    padding-left: 10px;
+}
+
+.heightlight-color{
+    color: #FFAD5A;
+    ;
 }
 
 .header-area p{
-    margin: 40px 10px 40px 0px;
+    margin: 25px 10px 25px 0px;
 }
 
 .header-area img{
