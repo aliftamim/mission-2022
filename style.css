@@ -220,7 +220,7 @@ section{
     
 }
 
-.volunteer-section h2{
+.volunteer-section-heading{
     font-size: 48px;
     font-weight: 900;
     line-height: 74px;
@@ -230,33 +230,31 @@ section{
 }
 
 .volunteer-section-left{
-    margin-left: 250px;
+    margin-left: 150px;
 
 }
 
 .volunteer-section-right{
     width: 40%;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 70px;
 }
 
 .volunteer-section-left img{
-    width: 229px;
-    height: 471px;
+    width: 400px;
+    margin-top: 25px;
 }
 
 .volunteer-section-right h2{
     font-size: 36px;
     font-weight: 900;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 0px;
 }
+
 
 .volunteer-section-right input{
     width: 40%;
     padding: 12px 20px;
-    margin-right: 5px;
+    margin-right: 5 px;
 }
 
 .volunteer-section-right p{
