@@ -14,9 +14,7 @@ h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
 }
 
-h2{
 
-}
 
 p{
     font-family: 'Poppins', sans-serif;
@@ -80,6 +78,38 @@ section{
 .header-area img{
     width: 50%;
     margin-left: 250px;
+}
+
+
+.my-mission-area img{
+    height: 141px;
+    width: 141px;
+    left: 188px;
+    top: 748px;
+    border-radius: 0px; 
+}
+
+.my-mission-area h2{
+    width: 454px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #13103A;
+    margin-bottom: 50px;
+}
+
+.mission-area-box-1{
+    width: 360px;
+    height: 376px;
+    left: 156px;
+    top: 723px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+    margin: 0px 10px;
+    margin: auto;
+    padding: 30px;
 }
 
 
