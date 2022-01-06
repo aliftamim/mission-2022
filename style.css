@@ -1,4 +1,5 @@
-/* */
+/* Reset defaults*/
+
 *{
     margin: 0;
     padding: 0;
@@ -10,11 +11,9 @@
     display: flex;
 }
 
-h2,h3,h4,h5,h6{
+h2 {
     font-family: 'Poppins', sans-serif;
 }
-
-
 
 p{
     font-family: 'Poppins', sans-serif;
@@ -39,14 +38,13 @@ p{
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
-
 }
 
 section{
     margin-bottom: 100px;
 }
 
-/* Header Section CSS */
+/* Header area CSS */
 
 .header-area-left{
     margin-top: 100px;
@@ -81,7 +79,7 @@ section{
 }
 
 
-.my-mission-area img{
+.mission-area img{
     height: 141px;
     width: 141px;
     left: 188px;
@@ -89,7 +87,7 @@ section{
     border-radius: 0px; 
 }
 
-.my-mission-area h2{
+.mission-area h2{
     width: 454px;
     height: 70px;
     font-weight: bold;
@@ -113,3 +111,35 @@ section{
 }
 
 
+
+
+/* Footer area CSS */
+
+.footer-area{
+    background-color: #0B0D17;
+    padding: 30px 0px;
+    margin-bottom: 0px;
+}
+
+.footer-area h3{
+    font-family: Lobster;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-area p{
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    text-align: center;
+}
+
+.footer-heightlight-color {
+    color: #FF5959;
+    font-weight: normal;
+}
