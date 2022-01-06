@@ -94,7 +94,7 @@ section{
 
 .mission-section h2{
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 70px;
     color: #13103A;
     text-align: center;
@@ -103,10 +103,8 @@ section{
 
 .mission-section-box{
     width: 360px;
-    height: 376px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 26px;
-    margin: 0px 20px;
     margin: auto;
     padding: 30px;
 }
@@ -120,7 +118,11 @@ section{
 }
 
 .mission-section-box h3{
+    margin: 10px 0px 20px 0px;
+}
 
+.mission-section-box p{
+    margin-bottom: 20px;
 }
 
 .ms-box1 {
@@ -162,7 +164,7 @@ section{
     font-family: Poppins;
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 54px;
     letter-spacing: 0em;
 }
@@ -191,8 +193,7 @@ section{
 .community-section-left h2{
     font-family: Poppins;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 54px;
     letter-spacing: 0em;
 }
@@ -206,6 +207,49 @@ section{
     width: 400px;
     border-radius: 26px;
     margin-right: 150px;
+}
+
+/* Volunteer Section */
+
+.volunteer-section{
+    
+}
+
+.volunteer-section h2{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.volunteer-section-left{
+    margin-left: 250px;
+
+}
+
+.volunteer-section-right{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.volunteer-section-left img{
+    width: 229px;
+    height: 471px;
+}
+
+.volunteer-section-right h2{
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.volunteer-section-right p{
+    margin: 25px 0px;
+
 }
 
 /* Footer area CSS */
